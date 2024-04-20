@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(54, 228, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Styling for input section */
+.input-section {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the start of each line */
+    padding: 10px;
+}
+
+/* Styling for labels */
+.input-section label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Add space between labels */
+}
+
+/* Styling for inputs */
+.input-section input,
+.input-section select {
+    padding: 5px;
+    margin-bottom: 10px; /* Add space between inputs and next label */
+    flex: 1; /* Allow inputs to expand to fill available space */
+}
+
+/* Styling for buttons */
+.input-section button {
+    padding: 5px 10px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styling for expenses list */
+.expenses-list {
+    margin: 20px;
+}
+
+/* Styling for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Styling for table headers and cells */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: black;
+}
+
+/* Styling for table header */
+th {
+    background-color: rgba(0, 0, 255, 0.466);
+    color: white;
+}
+
+/* Styling for table footer cells */
+tfoot td {
+    font-weight: bold;
+}
+
+/* Styling for delete button */
+.delete-btn {
+    padding: 5px 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
